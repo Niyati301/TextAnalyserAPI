@@ -1,7 +1,3 @@
 Flask==3.0.3
 pytest==8.2.2
-<<<<<<< HEAD:Requirements.text
-coverage==7.5.1 
-=======
 coverage==7.5.1
->>>>>>> b5463249490bb7d6af7ce6427227429f8f052955:requirements.text
