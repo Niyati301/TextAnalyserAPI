@@ -1,6 +1,6 @@
 from flask import Blueprint, request, jsonify
 
-bp = Blueprint('api', _name_)
+bp = Blueprint('api', __name__)
 
 @bp.route('/analyze', methods=['POST'])
 def analyze():
