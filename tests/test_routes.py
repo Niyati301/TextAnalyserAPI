@@ -4,7 +4,7 @@ from app.routes import bp
 
 @pytest.fixture
 def client():
-    app = Flask(_name_)
+    app = Flask(__name__)
     app.register_blueprint(bp)
     return app.test_client()
 
